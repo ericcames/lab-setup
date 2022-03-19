@@ -4,11 +4,6 @@
 #
 # To do before running this playbook:
 #
-# set root password vi luci interface
-# user@localhost> ssh-copy-id <ssh-key>.pub root@openwrt
-# root@openwrt> opkg update
-# root@openwrt> opkg install python3 openssh-sftp-server
-#
 
 - name: configure gatekeeper with openwrt
   hosts: gatekeeper
