@@ -1,9 +1,6 @@
 ---
 #
 # Configure gatekeeper with openwrt
-#
-# To do before running this playbook:
-#
 
 - name: configure gatekeeper with openwrt
   hosts: gatekeeper
