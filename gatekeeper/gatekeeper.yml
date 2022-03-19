@@ -57,7 +57,7 @@
 
     - name: install /etc/hosts file
       ansible.builtin.copy:
-        src: "etc.hosts"
+        src: "file/etc.hosts"
         dest: /etc/hosts
         owner: root
         group: root
