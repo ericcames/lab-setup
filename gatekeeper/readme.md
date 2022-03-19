@@ -1,5 +1,5 @@
 # Gatekeeper configs
-## Linksys1900ACSV2
+## [Linksys1900ACSV2](https://bit.ly/wrt1900acs)
 ### OpenWrt
 
 ### To do before running this playbook:
