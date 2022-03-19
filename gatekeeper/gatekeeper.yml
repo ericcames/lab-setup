@@ -12,9 +12,9 @@
         file: vars/main.yml
       tags: always
       
-    - name: include vars/secrets.yml
+    - name: include vars/gatekeepervar.yml
       ansible.builtin.include_vars:
-        file: vars/gatekeepervars.yml
+        file: vars/gatekeepervar.yml
       tags: always
    
     - name: include vars/secrets.yml
