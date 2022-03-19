@@ -72,18 +72,7 @@
       notify: restart dhcp
       tags: dhcp
 
-    - name: install /etc/config/wireless template
-      ansible.builtin.template:
-        src: etc.config.wireless.j2
-        dest: /etc/config/wireless
-        owner: root
-        group: root
-        mode: 0644
-        backup: yes
-      notify: restart wireless
-      tags: wireless
-
-      #community.general.opkg:
+    #community.general.opkg:
     - name: install ddns packages for {{ddns_service_name}}
       opkg:
         name: "{{ item }}"
