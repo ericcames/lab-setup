@@ -41,11 +41,6 @@ config odhcpd 'odhcpd'
 	option leasetrigger '/usr/sbin/odhcpd-update'
 	option loglevel '4'
 
-config boot 'linux'
-        option filename '{{linux_tftp_bootfile}}'
-        option serveraddress '{{linux_tftp_server_ip}}'
-        option servername '{{linux_tftp_server_name}}'
- 
 config host                                 
         option name 'wireless'                   
         option ip '172.16.1.4'
