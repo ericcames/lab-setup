@@ -9,7 +9,7 @@ time_servers:
 # Network Configuration Parameters                                             #
 ################################################################################
 primary_hostname: gatekeeper
-domain_name: internal.tjon.net
+domain_name: internal.ames.net
 primary_subnet: 172.16.1.0/24
 primary_ipaddr: 172.16.1.1
 primary_prefix: 24
@@ -20,8 +20,8 @@ primary_gateway: 172.16.1.1
 mtu_size: 9000
 ipv6_enabled: "no"
 search_domains: 
- - internal.tjon.net
- - tjon.net
+ - internal.ames.net
+ - ames.net
 dns_servers: 
  - 172.16.1.1
 primary_interface: eth0
