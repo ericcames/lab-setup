@@ -1,6 +1,6 @@
 # Gatekeeper configs
 ## [Linksys1900ACSV2](https://bit.ly/wrt1900acs)
-### [OpenWrt Firmware] (https://openwrt.org/toh/linksys/wrt1900acs)
+### [OpenWrt Conversion](https://openwrt.org/toh/linksys/wrt1900acs)
 
 ### To do before running this playbook:
 <ol>
