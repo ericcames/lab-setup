@@ -9,7 +9,7 @@
   tasks:
     - name: installing updated /etc/hosts file
       ansible.builtin.copy:
-        src: "file/etc.hosts"
+        src: "/home/eames/github/lab-setup/gatekeeper/file/etc.hosts"
         dest: /etc/hosts
         owner: root
         group: root
