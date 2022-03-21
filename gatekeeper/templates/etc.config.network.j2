@@ -25,19 +25,19 @@ config interface 'lan'
         option broadcast '{{primary_broadcast}}'
 	option ip6assign '60'
 
-config device
-	option name 'wan'
-	option macaddr '26:f5:a2:a0:0c:02'
-
 config interface 'wan'
 	option device 'wan'
 	option proto 'dhcp'
-
-config interface 'wan6'
-	option device 'wan'
-	option proto 'dhcpv6'
+	option hostname '*'      
+        option peerdns '0'       
+        list dns '{{ISPDNSSERVER1}}'
+        list dns '{{ISPDNSSERVER2}}'
 
 config interface 'tun0'
         option ifname 'tun0'
         option proto 'none'
         option auto '0'
+	
+config device
+	option name 'wan'
+	option ipv6 '0'
