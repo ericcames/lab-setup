@@ -6,3 +6,5 @@
 172.16.1.1	gatekeeper.internal.ames.net gatekeeper
 172.16.1.2	socrates.internal.ames.net socrates
 172.16.1.3	plato.internal.ames.net plato
+172.16.1.4  manager.internal.ames.net manager
+172.16.1.5  engine.internal.ames.net engine
