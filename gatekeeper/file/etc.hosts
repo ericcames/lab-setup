@@ -9,3 +9,5 @@
 172.16.1.4  aap.internal.ames.net aap
 172.16.1.5  execution.internal.ames.net execution
 172.16.1.6  rhel7.internal.ames.net rhel7
+172.16.1.7  web.internal.ames.net web
+172.16.1.8  db.internal.ames.net db
