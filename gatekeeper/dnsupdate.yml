@@ -25,9 +25,3 @@
         name: dnsmasq
         state: restarted
         enabled: yes
-
-    - name: restart dhcp # provided by dnsmasq
-      ansible.builtin.service:
-        name: dnsmasq
-        state: restarted
-        enabled: yes
