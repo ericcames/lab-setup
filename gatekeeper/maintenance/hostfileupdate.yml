@@ -3,7 +3,7 @@
 # Maintain the /etc/hosts file
 
 - name: Updating the /etc/hosts file
-  hosts: gatekeeper
+  hosts: all
   become: yes
 
   tasks:
